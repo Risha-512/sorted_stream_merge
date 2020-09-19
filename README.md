@@ -51,7 +51,7 @@ input1.txt | input2.txt | input3.txt
 s          | p          |
 9          | 10         |
 0          | 13         |
-           | s          |
+5          | s          |
   
 output.txt |
 ---------- |
