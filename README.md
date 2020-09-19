@@ -38,3 +38,31 @@ Require minimum 3 parameters:
 
 Next parameters are optional:
 paths for other input files that need to be merged together.
+
+***
+
+## Example
+
+input1.txt | input2.txt | input3.txt
+---------- | ---------- | ----------
+3          | 1          | 2
+4          | 6          | 6
+2          | 7          | 9
+s          | p          |
+9          | 10         |
+0          | 13         |
+           | s          |
+  
+output.txt |
+---------- |
+1          |
+2          |
+3          |
+4          |
+6          |
+6          |
+7          |
+9          |
+9          |
+10         |
+13         |
