@@ -11,6 +11,7 @@ The heap contains exactly the same number of elements as the quantity of
 available to read files.
 Algorithm looks over all input files and read one element from each of them or
 one element from file which has the previous (last) minimum.
+Then elements are pushed to the heap. 
 The algorithm then extracts the minimum from the heap and puts it 
 to the output stream.
 This action continues until all data from files has been read.
